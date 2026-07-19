@@ -61,7 +61,7 @@ kill -9 -$PID
 This utility uses the following libraries:
 
 ### Third-Party Libraries
-- **argparse**: Used to provide easy argument processing to the utility, located in includes/argparse.hpp.<br>
+- **argparse**: Used to provide easy argument processing to the utility, located in include/argparse.hpp.<br>
 The argparse repo can be found [here.](https://github.com/p-ranav/argparse)
 
 
