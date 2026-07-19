@@ -62,7 +62,7 @@ This utility uses the following libraries:
 
 ### Third-Party Libraries
 - **argparse**: Used to provide easy argument processing to the utility, located in includes/argparse.hpp.
-  The argparse repo can be found [here.](https://github.com/p-ranav/argparse)
+The argparse repo can be found [here.](https://github.com/p-ranav/argparse)
 
 
 ### Original Code License
