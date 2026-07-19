@@ -66,4 +66,4 @@ The argparse repo can be found [here.](https://github.com/p-ranav/argparse)
 
 
 ### Original Code License
-This project, **Fork And Track**, is licensed under the **GNU Lesser General Public License v3.0 (LGPLv3)**.
+This project, **Fork And Track**, is licensed under the **GNU General Public License v3.0 (GPLv3)**.
