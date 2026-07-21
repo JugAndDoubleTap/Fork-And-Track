@@ -36,7 +36,7 @@ sudo cp -a fat /usr/local/bin/
 - **--arguments / -a** String of arguments to provide to the forked program / command.
 - **--redirect-output / -r** Redirect the output to a specific path or file.
 - **--hide-output / -h** Hide the console output. (do not use with -r)
-
+- **-- ** Used to pass arguments directly to the forked program / command.(have a space after the --)
 
 ## Example usages
 
