@@ -34,16 +34,18 @@ sudo cp -a fat /usr/local/bin/
 
 - **--program / -p** Path to the program or command to be forked.
 - **--arguments / -a** String of arguments to provide to the forked program / command.
+- **--redirect-output / -r** Redirect the output to a specific path or file.
+- **--hide-output / -h** Hide the console output. (do not use with -r)
 
 
 ## Example usages
 
 ```bash
-fat -p start-server -a "--nogui --noconsole"
+fat -p start-server -r /tmp/server-output.log -- --nogui
 
-PID=$(fat -p ~/applications/long-process.sh)
+PID=$(fat -h -p ~/applications/long-process.sh)
 
-fat -p python3 -a "background-process.py"
+fat -p python3 -h -- background-process.py
 ```
 
 
